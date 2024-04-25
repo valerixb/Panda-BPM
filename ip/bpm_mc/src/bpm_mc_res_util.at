@@ -1,0 +1,598 @@
+# Vivado resource utilization data is represented in anytable format
+# The data will be consumed by Resource Utilization flow in SysGen.
+
+{
+   'Design_Information' => [
+     { 
+        'PART' => 'xc7z030sbg485-1',
+        'Vivado_Stage' => 'Post Synthesis',
+        'Top_Module' => 'bpm_mc',
+        'HDL_Language' => 'vhdl',
+        'Netlist_Crossprobe_File' => 'bpm_mc.vhd.at',
+     },
+   ],
+   'Device_Resources' => [
+     { 
+        'BRAMs' => '265',
+        'DSPs' => '400',
+        'Registers' => '157200',
+        'LUTs' => '78600',
+     },
+   ],
+   'Resource_Utilization_Data' => [
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_132',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 31,
+                    'LUT3' => 31,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_163',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub1',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 31,
+                    'LUT3' => 31,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_194',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub10',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub10',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 34,
+                    'Total_LUTs' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_225',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub2',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 31,
+                    'LUT3' => 31,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_256',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub3',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub3',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 31,
+                    'LUT3' => 31,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_287',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub4',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub4',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 33,
+                    'Total_LUTs' => 33,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_318',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub5',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub5',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 33,
+                    'Total_LUTs' => 33,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_349',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub6',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub6',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 33,
+                    'Total_LUTs' => 33,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_380',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub7',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub7',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 33,
+                    'LUT3' => 31,
+                    'Total_LUTs' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_411',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub8',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub8',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 34,
+                    'Total_LUTs' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_442',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.addsub9',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/addsub9',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 9,
+                    'LUT2' => 34,
+                    'Total_LUTs' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_624',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.convert15',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/convert15',
+          'Primitives' => [ 
+               {
+                    'LUT4' => 31,
+                    'Total_LUTs' => 31,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_813',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay1',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay1',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 32,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_828',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay2',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay2',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 32,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_843',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay3',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay3',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_858',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay4',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay4',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_873',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay5',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay5',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_888',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay6',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay6',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_903',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.delay7',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/delay7',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 32,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_918',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.divide',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/divide',
+          'Primitives' => [ 
+               {
+                    'LUT6' => 249,
+                    'FDRE' => 1883,
+                    'LUT2' => 110,
+                    'LUT4' => 72,
+                    'LUT3' => 331,
+                    'SRLC32E' => 2,
+                    'SRL16E' => 198,
+                    'RAMB18E1' => 1,
+                    'DSP48E1' => 16,
+                    'LUT1' => 32,
+                    'LUT5' => 129,
+                    'CARRY4' => 58,
+                    'Total_LUTs' => 1123,
+                    'Total_Registers' => 1883,
+                    'Total_BRAMs' => 0.5,
+                    'Total_DSPs' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_931',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.divide1',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/divide1',
+          'Primitives' => [ 
+               {
+                    'LUT6' => 249,
+                    'FDRE' => 1883,
+                    'LUT2' => 109,
+                    'LUT4' => 72,
+                    'LUT3' => 331,
+                    'SRLC32E' => 2,
+                    'SRL16E' => 198,
+                    'RAMB18E1' => 1,
+                    'DSP48E1' => 16,
+                    'LUT1' => 32,
+                    'LUT5' => 129,
+                    'CARRY4' => 58,
+                    'Total_LUTs' => 1122,
+                    'Total_Registers' => 1883,
+                    'Total_BRAMs' => 0.5,
+                    'Total_DSPs' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_944',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_968',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample10',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample10',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_992',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample11',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample11',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1016',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample12',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample12',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1040',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample13',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample13',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1064',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample3',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample3',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1088',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample4',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample4',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1112',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample5',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample5',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1136',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample6',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample6',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1160',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample7',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample7',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1184',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample8',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample8',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1208',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.down_sample9',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/down_sample9',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 31,
+                    'FDRE' => 32,
+                    'Total_LUTs' => 31,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1241',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.mult1',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/mult1',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 4,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1278',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.mult2',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/mult2',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 4,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1315',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.mult3',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/mult3',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 4,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1352',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.mult4',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/mult4',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 4,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1389',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.up_sample1',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/up_sample1',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1411',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.up_sample3',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/up_sample3',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_1433',
+          'Hier_Name' => 'singenmc_bd_wrapper.singenmc_bd_i.singenmc_1.U0.bpm_mc_struct.up_sample5',
+          'Cell_Name' => 'singenmc_bd_i/singenmc_1/U0/bpm_mc_struct/up_sample5',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 34,
+                    'Total_Registers' => 34,
+               },
+          ], 
+     },
+     { 
+          'File_Name' => 'bpm_mc.vhd',
+          'Line_Num' => 'Line_000',
+          'Hier_Name' => 'bpm_mc',
+          'Cell_Name' => 'bpm_mc',
+          'Primitives' => [ 
+               { 
+                    'CARRY4' => 215,
+                    'LUT2' => 949,
+                    'LUT3' => 817,
+                    'LUT4' => 175,
+                    'FDRE' => 4484,
+                    'LUT6' => 498,
+                    'SRLC32E' => 4,
+                    'SRL16E' => 396,
+                    'RAMB18E1' => 2,
+                    'DSP48E1' => 48,
+                    'LUT1' => 64,
+                    'LUT5' => 258,
+                    'Total_LUTs' => 3161,
+                    'Total_Registers' => 4484,
+                    'Total_BRAMs' => 1.0,
+                    'Total_DSPs' => 48,
+               },
+          ],
+     },
+   ],
+} 

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 24 15:32:58 2024
+# Process ID: 10288
+# Current directory: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/synth_1
+# Command line: vivado -log singenmc_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source singenmc_bd_wrapper.tcl
+# Log file: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/synth_1/singenmc_bd_wrapper.vds
+# Journal file: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/synth_1/vivado.jou
+# Running On: ub2020p4p3vm, OS: Linux, CPU Frequency: 1991.997 MHz, CPU Physical cores: 3, Host memory: 10437 MB
+#-----------------------------------------------------------
+source singenmc_bd_wrapper.tcl -notrace
