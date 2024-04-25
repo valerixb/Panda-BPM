@@ -5,10 +5,10 @@
 
 # XDC: imports/sysgen/bpm_mc.xdc
 
-# Block Designs: bd/singenmc_bd/singenmc_bd.bd
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==singenmc_bd || ORIG_REF_NAME==singenmc_bd} -quiet] -quiet
+# Block Designs: bd/bpm_mc_bd/bpm_mc_bd.bd
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bpm_mc_bd || ORIG_REF_NAME==bpm_mc_bd} -quiet] -quiet
 
-# IP: bd/singenmc_bd/ip/singenmc_bd_singenmc_1_0/singenmc_bd_singenmc_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==singenmc_bd_singenmc_1_0 || ORIG_REF_NAME==singenmc_bd_singenmc_1_0} -quiet] -quiet
+# IP: bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_bd_bpm_mc_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bpm_mc_bd_bpm_mc_1_0 || ORIG_REF_NAME==bpm_mc_bd_bpm_mc_1_0} -quiet] -quiet
 
-# XDC: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/singenmc_bd/singenmc_bd_ooc.xdc
+# XDC: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/bpm_mc_bd_ooc.xdc

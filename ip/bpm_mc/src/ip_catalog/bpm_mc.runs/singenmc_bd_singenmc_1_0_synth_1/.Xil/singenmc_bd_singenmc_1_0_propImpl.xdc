@@ -1,4 +1,0 @@
-set_property SRC_FILE_INFO {cfile:/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/singenmc_bd/ip/singenmc_bd_singenmc_1_0/constrs/bpm_mc.xdc rfile:../../../bpm_mc.gen/sources_1/bd/singenmc_bd/ip/singenmc_bd_singenmc_1_0/constrs/bpm_mc.xdc id:1 order:EARLY scoped_inst:U0} [current_design]
-current_instance U0
-set_property src_info {type:SCOPED_XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
-set_multicycle_path -from [get_cells -of [filter [all_fanout -flat -endpoints [get_pins {bpm_mc_default_clock_driver/clockdriver/pipelined_ce.ce_pipeline[1].ce_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp/Q}]] IS_ENABLE]] -to [get_cells -of [filter [all_fanout -flat -endpoints [get_pins {bpm_mc_default_clock_driver/clockdriver/pipelined_ce.ce_pipeline[1].ce_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp/Q}]] IS_ENABLE]] -hold 124

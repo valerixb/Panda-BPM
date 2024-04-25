@@ -2,7 +2,7 @@
 <spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <spirit:vendor>MaxIV</spirit:vendor>
   <spirit:library>Panda_ModelComp</spirit:library>
-  <spirit:name>singenmc</spirit:name>
+  <spirit:name>bpm_mc</spirit:name>
   <spirit:version>1.0</spirit:version>
   <spirit:busInterfaces>
     <spirit:busInterface>
@@ -807,7 +807,7 @@
     <spirit:fileSet>
       <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>xgui/singenmc_v1_0.tcl</spirit:name>
+        <spirit:name>xgui/bpm_mc_v1_0.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
         <spirit:userFileType>CHECKSUM_f92e9879</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
@@ -826,7 +826,7 @@
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">singenmc_v1_0</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">bpm_mc_v1_0</spirit:value>
     </spirit:parameter>
   </spirit:parameters>
   <spirit:vendorExtensions>
@@ -837,15 +837,15 @@
       <xilinx:taxonomies>
         <xilinx:taxonomy>/Vitis_Model_Composer</xilinx:taxonomy>
       </xilinx:taxonomies>
-      <xilinx:displayName>singenmc</xilinx:displayName>
+      <xilinx:displayName>bpm_mc</xilinx:displayName>
       <xilinx:definitionSource>sysgen</xilinx:definitionSource>
       <xilinx:xpmLibraries>
         <xilinx:xpmLibrary>XPM_MEMORY</xilinx:xpmLibrary>
         <xilinx:xpmLibrary>XPM_FIFO</xilinx:xpmLibrary>
         <xilinx:xpmLibrary>XPM_CDC</xilinx:xpmLibrary>
       </xilinx:xpmLibraries>
-      <xilinx:coreRevision>344877964</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-04-24T13:26:51Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>344945863</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-04-25T08:18:16Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>

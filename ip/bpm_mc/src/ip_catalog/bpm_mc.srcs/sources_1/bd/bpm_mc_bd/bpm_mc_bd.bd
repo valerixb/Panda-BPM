@@ -1,0 +1,367 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x4242E6AD17000AE1",
+      "design_src": "SYSGEN",
+      "device": "xc7z030sbg485-1",
+      "gen_directory": "../../../../bpm_mc.gen/sources_1/bd/bpm_mc_bd",
+      "name": "bpm_mc_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "bpm_mc_1": ""
+    },
+    "ports": {
+      "a": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "again": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "aoffset": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "bgain": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "boffset": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "c": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "ce_out": {
+        "type": "data",
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "cgain": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "bpm_mc_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "clr": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "coffset": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "d": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "dgain": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "doffset": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "i": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "x": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "y": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "bpm_mc_1": {
+        "vlnv": "MaxIV:Panda_ModelComp:bpm_mc:1.0",
+        "ip_revision": "344945863",
+        "xci_name": "bpm_mc_bd_bpm_mc_1_0",
+        "xci_path": "ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_bd_bpm_mc_1_0.xci",
+        "inst_hier_path": "bpm_mc_1"
+      }
+    },
+    "nets": {
+      "a_1": {
+        "ports": [
+          "a",
+          "bpm_mc_1/a"
+        ]
+      },
+      "again_1": {
+        "ports": [
+          "again",
+          "bpm_mc_1/again"
+        ]
+      },
+      "aoffset_1": {
+        "ports": [
+          "aoffset",
+          "bpm_mc_1/aoffset"
+        ]
+      },
+      "b_1": {
+        "ports": [
+          "b",
+          "bpm_mc_1/b"
+        ]
+      },
+      "bgain_1": {
+        "ports": [
+          "bgain",
+          "bpm_mc_1/bgain"
+        ]
+      },
+      "boffset_1": {
+        "ports": [
+          "boffset",
+          "bpm_mc_1/boffset"
+        ]
+      },
+      "bpm_mc_1_ce_out": {
+        "ports": [
+          "bpm_mc_1/ce_out",
+          "ce_out"
+        ]
+      },
+      "bpm_mc_1_i": {
+        "ports": [
+          "bpm_mc_1/i",
+          "i"
+        ]
+      },
+      "bpm_mc_1_x": {
+        "ports": [
+          "bpm_mc_1/x",
+          "x"
+        ]
+      },
+      "bpm_mc_1_y": {
+        "ports": [
+          "bpm_mc_1/y",
+          "y"
+        ]
+      },
+      "c_1": {
+        "ports": [
+          "c",
+          "bpm_mc_1/c"
+        ]
+      },
+      "cgain_1": {
+        "ports": [
+          "cgain",
+          "bpm_mc_1/cgain"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "bpm_mc_1/clk"
+        ]
+      },
+      "clr_1": {
+        "ports": [
+          "clr",
+          "bpm_mc_1/clr"
+        ]
+      },
+      "coffset_1": {
+        "ports": [
+          "coffset",
+          "bpm_mc_1/coffset"
+        ]
+      },
+      "d_1": {
+        "ports": [
+          "d",
+          "bpm_mc_1/d"
+        ]
+      },
+      "dgain_1": {
+        "ports": [
+          "dgain",
+          "bpm_mc_1/dgain"
+        ]
+      },
+      "doffset_1": {
+        "ports": [
+          "doffset",
+          "bpm_mc_1/doffset"
+        ]
+      }
+    }
+  }
+}

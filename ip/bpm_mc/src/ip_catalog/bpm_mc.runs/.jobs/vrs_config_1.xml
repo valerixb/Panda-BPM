@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="0">
-	<Run Id="singenmc_bd_singenmc_1_0_synth_1" LaunchDir="/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/singenmc_bd_singenmc_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bpm_mc_bd_bpm_mc_1_0_synth_1" LaunchDir="/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
 	<Run Id="synth_1" LaunchDir="/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
-		<Parent Id="singenmc_bd_singenmc_1_0_synth_1"/>
+		<Parent Id="bpm_mc_bd_bpm_mc_1_0_synth_1"/>
 	</Run>
 	<Parameters>
 		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>

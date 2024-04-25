@@ -37,4 +37,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log singenmc_bd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source singenmc_bd_wrapper.tcl
+EAStep vivado -log bpm_mc_bd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bpm_mc_bd_wrapper.tcl

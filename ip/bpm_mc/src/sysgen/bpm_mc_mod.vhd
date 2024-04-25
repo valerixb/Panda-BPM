@@ -26,7 +26,7 @@ entity bpm_mc_stub is
 end bpm_mc_stub;
 architecture structural of bpm_mc_stub is 
 begin
-  sysgen_dut : entity xil_defaultlib.singenmc_0 
+  sysgen_dut : entity xil_defaultlib.bpm_mc_0 
   port map (
     a => a,
     again => again,
