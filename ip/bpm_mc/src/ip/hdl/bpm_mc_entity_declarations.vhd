@@ -787,6 +787,28 @@ end architecture struct;
 library xil_defaultlib;
 use xil_defaultlib.conv_pkg.all;
 
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+entity sysgen_reinterpret_745aad385a is
+  port (
+    input_port : in std_logic_vector((34 - 1) downto 0);
+    output_port : out std_logic_vector((34 - 1) downto 0);
+    clk : in std_logic;
+    ce : in std_logic;
+    clr : in std_logic);
+end sysgen_reinterpret_745aad385a;
+architecture behavior of sysgen_reinterpret_745aad385a
+is
+  signal input_port_1_40: signed((34 - 1) downto 0);
+begin
+  input_port_1_40 <= std_logic_vector_to_signed(input_port);
+  output_port <= signed_to_std_logic_vector(input_port_1_40);
+end behavior;
+
+library xil_defaultlib;
+use xil_defaultlib.conv_pkg.all;
+
 -------------------------------------------------------------------
  -- System Generator VHDL source file.
  --

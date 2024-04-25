@@ -247,7 +247,7 @@
     "components": {
       "bpm_mc_1": {
         "vlnv": "MaxIV:Panda_ModelComp:bpm_mc:1.0",
-        "ip_revision": "344945863",
+        "ip_revision": "344957094",
         "xci_name": "bpm_mc_bd_bpm_mc_1_0",
         "xci_path": "ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_bd_bpm_mc_1_0.xci",
         "inst_hier_path": "bpm_mc_1"

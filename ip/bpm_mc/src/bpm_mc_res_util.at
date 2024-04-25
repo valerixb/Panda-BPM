@@ -22,7 +22,7 @@
    'Resource_Utilization_Data' => [
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_132',
+          'Line_Num' => 'Line_133',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub',
           'Primitives' => [ 
@@ -36,7 +36,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_163',
+          'Line_Num' => 'Line_164',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub1',
           'Primitives' => [ 
@@ -50,7 +50,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_194',
+          'Line_Num' => 'Line_195',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub10',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub10',
           'Primitives' => [ 
@@ -63,7 +63,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_225',
+          'Line_Num' => 'Line_226',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub2',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub2',
           'Primitives' => [ 
@@ -77,7 +77,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_256',
+          'Line_Num' => 'Line_257',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub3',
           'Primitives' => [ 
@@ -91,7 +91,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_287',
+          'Line_Num' => 'Line_288',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub4',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub4',
           'Primitives' => [ 
@@ -104,7 +104,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_318',
+          'Line_Num' => 'Line_319',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub5',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub5',
           'Primitives' => [ 
@@ -117,7 +117,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_349',
+          'Line_Num' => 'Line_350',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub6',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub6',
           'Primitives' => [ 
@@ -130,7 +130,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_380',
+          'Line_Num' => 'Line_381',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub7',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub7',
           'Primitives' => [ 
@@ -144,7 +144,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_411',
+          'Line_Num' => 'Line_412',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub8',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub8',
           'Primitives' => [ 
@@ -157,7 +157,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_442',
+          'Line_Num' => 'Line_443',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.addsub9',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/addsub9',
           'Primitives' => [ 
@@ -170,19 +170,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_624',
-          'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.convert15',
-          'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/convert15',
-          'Primitives' => [ 
-               {
-                    'LUT4' => 31,
-                    'Total_LUTs' => 31,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_813',
+          'Line_Num' => 'Line_814',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay1',
           'Primitives' => [ 
@@ -194,7 +182,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_828',
+          'Line_Num' => 'Line_829',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay2',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay2',
           'Primitives' => [ 
@@ -206,7 +194,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_843',
+          'Line_Num' => 'Line_844',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay3',
           'Primitives' => [ 
@@ -218,7 +206,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_858',
+          'Line_Num' => 'Line_859',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay4',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay4',
           'Primitives' => [ 
@@ -230,7 +218,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_873',
+          'Line_Num' => 'Line_874',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay5',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay5',
           'Primitives' => [ 
@@ -242,7 +230,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_888',
+          'Line_Num' => 'Line_889',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay6',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay6',
           'Primitives' => [ 
@@ -254,7 +242,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_903',
+          'Line_Num' => 'Line_904',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.delay7',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/delay7',
           'Primitives' => [ 
@@ -266,7 +254,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_918',
+          'Line_Num' => 'Line_919',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.divide',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/divide',
           'Primitives' => [ 
@@ -292,7 +280,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_931',
+          'Line_Num' => 'Line_932',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.divide1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/divide1',
           'Primitives' => [ 
@@ -318,7 +306,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_944',
+          'Line_Num' => 'Line_945',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample',
           'Primitives' => [ 
@@ -332,7 +320,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_968',
+          'Line_Num' => 'Line_969',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample10',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample10',
           'Primitives' => [ 
@@ -346,7 +334,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_992',
+          'Line_Num' => 'Line_993',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample11',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample11',
           'Primitives' => [ 
@@ -360,7 +348,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1016',
+          'Line_Num' => 'Line_1017',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample12',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample12',
           'Primitives' => [ 
@@ -374,7 +362,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1040',
+          'Line_Num' => 'Line_1041',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample13',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample13',
           'Primitives' => [ 
@@ -388,7 +376,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1064',
+          'Line_Num' => 'Line_1065',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample3',
           'Primitives' => [ 
@@ -402,7 +390,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1088',
+          'Line_Num' => 'Line_1089',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample4',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample4',
           'Primitives' => [ 
@@ -416,7 +404,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1112',
+          'Line_Num' => 'Line_1113',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample5',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample5',
           'Primitives' => [ 
@@ -430,7 +418,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1136',
+          'Line_Num' => 'Line_1137',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample6',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample6',
           'Primitives' => [ 
@@ -444,7 +432,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1160',
+          'Line_Num' => 'Line_1161',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample7',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample7',
           'Primitives' => [ 
@@ -458,7 +446,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1184',
+          'Line_Num' => 'Line_1185',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample8',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample8',
           'Primitives' => [ 
@@ -472,7 +460,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1208',
+          'Line_Num' => 'Line_1209',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.down_sample9',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/down_sample9',
           'Primitives' => [ 
@@ -486,7 +474,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1241',
+          'Line_Num' => 'Line_1242',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.mult1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/mult1',
           'Primitives' => [ 
@@ -498,7 +486,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1278',
+          'Line_Num' => 'Line_1279',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.mult2',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/mult2',
           'Primitives' => [ 
@@ -510,7 +498,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1315',
+          'Line_Num' => 'Line_1316',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.mult3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/mult3',
           'Primitives' => [ 
@@ -522,7 +510,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1352',
+          'Line_Num' => 'Line_1353',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.mult4',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/mult4',
           'Primitives' => [ 
@@ -534,7 +522,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1389',
+          'Line_Num' => 'Line_1390',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample1',
           'Primitives' => [ 
@@ -546,7 +534,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1411',
+          'Line_Num' => 'Line_1412',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample3',
           'Primitives' => [ 
@@ -558,7 +546,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1433',
+          'Line_Num' => 'Line_1434',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample5',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample5',
           'Primitives' => [ 
@@ -578,16 +566,16 @@
                     'CARRY4' => 215,
                     'LUT2' => 949,
                     'LUT3' => 817,
-                    'LUT4' => 175,
                     'FDRE' => 4484,
                     'LUT6' => 498,
+                    'LUT4' => 144,
                     'SRLC32E' => 4,
                     'SRL16E' => 396,
                     'RAMB18E1' => 2,
                     'DSP48E1' => 48,
                     'LUT1' => 64,
                     'LUT5' => 258,
-                    'Total_LUTs' => 3161,
+                    'Total_LUTs' => 3130,
                     'Total_Registers' => 4484,
                     'Total_BRAMs' => 1.0,
                     'Total_DSPs' => 48,

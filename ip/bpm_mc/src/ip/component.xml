@@ -713,7 +713,7 @@
       <spirit:file>
         <spirit:name>hdl/bpm_mc.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_0e3dcc58</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_1dbe61fa</spirit:userFileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
@@ -844,8 +844,8 @@
         <xilinx:xpmLibrary>XPM_FIFO</xilinx:xpmLibrary>
         <xilinx:xpmLibrary>XPM_CDC</xilinx:xpmLibrary>
       </xilinx:xpmLibraries>
-      <xilinx:coreRevision>344945863</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-04-25T08:18:16Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>344957094</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-04-25T11:25:39Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>

@@ -85,7 +85,7 @@ architecture structural of bpm_mc_struct is
   signal convert14_dout_net : std_logic_vector( 32-1 downto 0 );
   signal divide1_op_net : std_logic_vector( 64-1 downto 0 );
   signal convert15_dout_net : std_logic_vector( 32-1 downto 0 );
-  signal up_sample5_q_net : std_logic_vector( 34-1 downto 0 );
+  signal reinterpret_output_port_net : std_logic_vector( 34-1 downto 0 );
   signal down_sample3_q_net : std_logic_vector( 32-1 downto 0 );
   signal convert3_dout_net : std_logic_vector( 32-1 downto 0 );
   signal down_sample4_q_net : std_logic_vector( 32-1 downto 0 );
@@ -100,6 +100,7 @@ architecture structural of bpm_mc_struct is
   signal up_sample1_q_net : std_logic_vector( 34-1 downto 0 );
   signal divide_a_tready_net : std_logic;
   signal delay4_q_net : std_logic_vector( 34-1 downto 0 );
+  signal up_sample5_q_net : std_logic_vector( 34-1 downto 0 );
   signal divide_b_tready_net : std_logic;
   signal delay5_q_net : std_logic_vector( 34-1 downto 0 );
   signal up_sample3_q_net : std_logic_vector( 34-1 downto 0 );
@@ -625,7 +626,7 @@ begin
   generic map (
     bool_conversion => 0,
     din_arith => 2,
-    din_bin_pt => 31,
+    din_bin_pt => 33,
     din_width => 34,
     dout_arith => 2,
     dout_bin_pt => 31,
@@ -637,7 +638,7 @@ begin
   port map (
     clr => '0',
     en => "1",
-    din => up_sample5_q_net,
+    din => reinterpret_output_port_net,
     clk => clk_net,
     ce => ce_net,
     dout => convert15_dout_net
@@ -1452,6 +1453,14 @@ begin
     dest_ce => ce_net,
     q => up_sample5_q_net
   );
+  reinterpret : entity xil_defaultlib.sysgen_reinterpret_745aad385a 
+  port map (
+    clk => '0',
+    ce => '0',
+    clr => '0',
+    input_port => up_sample5_q_net,
+    output_port => reinterpret_output_port_net
+  );
 end structural;
 -- Generated from Simulink block 
 library IEEE;
@@ -1525,7 +1534,7 @@ entity bpm_mc is
 end bpm_mc;
 architecture structural of bpm_mc is 
   attribute core_generation_info : string;
-  attribute core_generation_info of structural : architecture is "bpm_mc,sysgen_core_2023_2,{,compilation=IP Catalog,block_icon_display=Default,family=zynq,part=xc7z030,speed=-1,package=sbg485,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=1,clock_period=8,system_simulink_period=8e-09,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=0.0001,addsub=11,ceprobe=1,constant=2,convert=15,delay=7,divide=2,dsamp=12,logical=1,mult=4,usamp=3,}";
+  attribute core_generation_info of structural : architecture is "bpm_mc,sysgen_core_2023_2,{,compilation=IP Catalog,block_icon_display=Default,family=zynq,part=xc7z030,speed=-1,package=sbg485,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=1,clock_period=8,system_simulink_period=8e-09,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=0.0001,addsub=11,ceprobe=1,constant=2,convert=15,delay=7,divide=2,dsamp=12,logical=1,mult=4,reinterpret=1,usamp=3,}";
   signal clk_1_net : std_logic;
   signal ce_1_net : std_logic;
   signal clk_125_net : std_logic;

@@ -1,310 +1,315 @@
 {
-  'Line_1016' => {
+  'Line_1017' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample12',
     'Instance' => 'down_sample12',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample12'
   },
-  'Line_1040' => {
+  'Line_1041' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample13',
     'Instance' => 'down_sample13',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample13'
   },
-  'Line_1064' => {
+  'Line_1065' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample3',
     'Instance' => 'down_sample3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample3'
   },
-  'Line_1088' => {
+  'Line_1089' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample4',
     'Instance' => 'down_sample4',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample4'
   },
-  'Line_1112' => {
+  'Line_1113' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample5',
     'Instance' => 'down_sample5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample5'
   },
-  'Line_1136' => {
+  'Line_1137' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample6',
     'Instance' => 'down_sample6',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample6'
   },
-  'Line_1160' => {
+  'Line_1161' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample7',
     'Instance' => 'down_sample7',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample7'
   },
-  'Line_1184' => {
+  'Line_1185' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample8',
     'Instance' => 'down_sample8',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample8'
   },
-  'Line_1208' => {
+  'Line_1209' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample9',
     'Instance' => 'down_sample9',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample9'
   },
-  'Line_1232' => {
+  'Line_1233' => {
     'CodeInstance' => 'bpm_mc_struct/logical',
     'Instance' => 'logical',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Logical'
   },
-  'Line_1241' => {
+  'Line_1242' => {
     'CodeInstance' => 'bpm_mc_struct/mult1',
     'Instance' => 'mult1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Mult1'
   },
-  'Line_1278' => {
+  'Line_1279' => {
     'CodeInstance' => 'bpm_mc_struct/mult2',
     'Instance' => 'mult2',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Mult2'
   },
-  'Line_1315' => {
+  'Line_1316' => {
     'CodeInstance' => 'bpm_mc_struct/mult3',
     'Instance' => 'mult3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Mult3'
   },
-  'Line_132' => {
+  'Line_133' => {
     'CodeInstance' => 'bpm_mc_struct/addsub',
     'Instance' => 'addsub',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub'
   },
-  'Line_1352' => {
+  'Line_1353' => {
     'CodeInstance' => 'bpm_mc_struct/mult4',
     'Instance' => 'mult4',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Mult4'
   },
-  'Line_1389' => {
+  'Line_1390' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample1',
     'Instance' => 'up_sample1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample1'
   },
-  'Line_1411' => {
+  'Line_1412' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample3',
     'Instance' => 'up_sample3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample3'
   },
-  'Line_1433' => {
+  'Line_1434' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample5',
     'Instance' => 'up_sample5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample5'
   },
-  'Line_1474' => {
+  'Line_1456' => {
+    'CodeInstance' => 'bpm_mc_struct/reinterpret',
+    'Instance' => 'reinterpret',
+    'SimulinkInstance' => 'bpm_tb/bpm_mc/Reinterpret'
+  },
+  'Line_1483' => {
     'CodeInstance' => 'bpm_mc_default_clock_driver/clockdriver_x0',
     'Instance' => 'clockdriver_x0',
     'SimulinkInstance' => ''
   },
-  'Line_1486' => {
+  'Line_1495' => {
     'CodeInstance' => 'bpm_mc_default_clock_driver/clockdriver',
     'Instance' => 'clockdriver',
     'SimulinkInstance' => ''
   },
-  'Line_1534' => {
+  'Line_1543' => {
     'CodeInstance' => 'bpm_mc_default_clock_driver',
     'Instance' => 'bpm_mc_default_clock_driver',
     'SimulinkInstance' => ''
   },
-  'Line_1544' => {
+  'Line_1553' => {
     'CodeInstance' => 'bpm_mc_struct',
     'Instance' => 'bpm_mc_struct',
     'SimulinkInstance' => 'bpm_mc'
   },
-  'Line_163' => {
+  'Line_164' => {
     'CodeInstance' => 'bpm_mc_struct/addsub1',
     'Instance' => 'addsub1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub1'
   },
-  'Line_194' => {
+  'Line_195' => {
     'CodeInstance' => 'bpm_mc_struct/addsub10',
     'Instance' => 'addsub10',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub10'
   },
-  'Line_225' => {
+  'Line_226' => {
     'CodeInstance' => 'bpm_mc_struct/addsub2',
     'Instance' => 'addsub2',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub2'
   },
-  'Line_256' => {
+  'Line_257' => {
     'CodeInstance' => 'bpm_mc_struct/addsub3',
     'Instance' => 'addsub3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub3'
   },
-  'Line_287' => {
+  'Line_288' => {
     'CodeInstance' => 'bpm_mc_struct/addsub4',
     'Instance' => 'addsub4',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub4'
   },
-  'Line_318' => {
+  'Line_319' => {
     'CodeInstance' => 'bpm_mc_struct/addsub5',
     'Instance' => 'addsub5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub5'
   },
-  'Line_349' => {
+  'Line_350' => {
     'CodeInstance' => 'bpm_mc_struct/addsub6',
     'Instance' => 'addsub6',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub6'
   },
-  'Line_380' => {
+  'Line_381' => {
     'CodeInstance' => 'bpm_mc_struct/addsub7',
     'Instance' => 'addsub7',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub7'
   },
-  'Line_411' => {
+  'Line_412' => {
     'CodeInstance' => 'bpm_mc_struct/addsub8',
     'Instance' => 'addsub8',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub8'
   },
-  'Line_442' => {
+  'Line_443' => {
     'CodeInstance' => 'bpm_mc_struct/addsub9',
     'Instance' => 'addsub9',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/AddSub9'
   },
-  'Line_473' => {
+  'Line_474' => {
     'CodeInstance' => 'bpm_mc_struct/clock_enable_probe',
     'Instance' => 'clock_enable_probe',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Clock Enable Probe'
   },
-  'Line_484' => {
+  'Line_485' => {
     'CodeInstance' => 'bpm_mc_struct/constant_x0',
     'Instance' => 'constant_x0',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Constant'
   },
-  'Line_491' => {
+  'Line_492' => {
     'CodeInstance' => 'bpm_mc_struct/constant1',
     'Instance' => 'constant1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Constant1'
   },
-  'Line_498' => {
+  'Line_499' => {
     'CodeInstance' => 'bpm_mc_struct/convert1',
     'Instance' => 'convert1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert1'
   },
-  'Line_519' => {
+  'Line_520' => {
     'CodeInstance' => 'bpm_mc_struct/convert10',
     'Instance' => 'convert10',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert10'
   },
-  'Line_540' => {
+  'Line_541' => {
     'CodeInstance' => 'bpm_mc_struct/convert11',
     'Instance' => 'convert11',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert11'
   },
-  'Line_561' => {
+  'Line_562' => {
     'CodeInstance' => 'bpm_mc_struct/convert12',
     'Instance' => 'convert12',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert12'
   },
-  'Line_582' => {
+  'Line_583' => {
     'CodeInstance' => 'bpm_mc_struct/convert13',
     'Instance' => 'convert13',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert13'
   },
-  'Line_603' => {
+  'Line_604' => {
     'CodeInstance' => 'bpm_mc_struct/convert14',
     'Instance' => 'convert14',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert14'
   },
-  'Line_624' => {
+  'Line_625' => {
     'CodeInstance' => 'bpm_mc_struct/convert15',
     'Instance' => 'convert15',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert15'
   },
-  'Line_645' => {
+  'Line_646' => {
     'CodeInstance' => 'bpm_mc_struct/convert2',
     'Instance' => 'convert2',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert2'
   },
-  'Line_666' => {
+  'Line_667' => {
     'CodeInstance' => 'bpm_mc_struct/convert3',
     'Instance' => 'convert3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert3'
   },
-  'Line_687' => {
+  'Line_688' => {
     'CodeInstance' => 'bpm_mc_struct/convert4',
     'Instance' => 'convert4',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert4'
   },
-  'Line_708' => {
+  'Line_709' => {
     'CodeInstance' => 'bpm_mc_struct/convert5',
     'Instance' => 'convert5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert5'
   },
-  'Line_729' => {
+  'Line_730' => {
     'CodeInstance' => 'bpm_mc_struct/convert6',
     'Instance' => 'convert6',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert6'
   },
-  'Line_750' => {
+  'Line_751' => {
     'CodeInstance' => 'bpm_mc_struct/convert7',
     'Instance' => 'convert7',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert7'
   },
-  'Line_771' => {
+  'Line_772' => {
     'CodeInstance' => 'bpm_mc_struct/convert8',
     'Instance' => 'convert8',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert8'
   },
-  'Line_792' => {
+  'Line_793' => {
     'CodeInstance' => 'bpm_mc_struct/convert9',
     'Instance' => 'convert9',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Convert9'
   },
-  'Line_813' => {
+  'Line_814' => {
     'CodeInstance' => 'bpm_mc_struct/delay1',
     'Instance' => 'delay1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay1'
   },
-  'Line_828' => {
+  'Line_829' => {
     'CodeInstance' => 'bpm_mc_struct/delay2',
     'Instance' => 'delay2',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay2'
   },
-  'Line_843' => {
+  'Line_844' => {
     'CodeInstance' => 'bpm_mc_struct/delay3',
     'Instance' => 'delay3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay3'
   },
-  'Line_858' => {
+  'Line_859' => {
     'CodeInstance' => 'bpm_mc_struct/delay4',
     'Instance' => 'delay4',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay4'
   },
-  'Line_873' => {
+  'Line_874' => {
     'CodeInstance' => 'bpm_mc_struct/delay5',
     'Instance' => 'delay5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay5'
   },
-  'Line_888' => {
+  'Line_889' => {
     'CodeInstance' => 'bpm_mc_struct/delay6',
     'Instance' => 'delay6',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay6'
   },
-  'Line_903' => {
+  'Line_904' => {
     'CodeInstance' => 'bpm_mc_struct/delay7',
     'Instance' => 'delay7',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Delay7'
   },
-  'Line_918' => {
+  'Line_919' => {
     'CodeInstance' => 'bpm_mc_struct/divide',
     'Instance' => 'divide',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Divide'
   },
-  'Line_931' => {
+  'Line_932' => {
     'CodeInstance' => 'bpm_mc_struct/divide1',
     'Instance' => 'divide1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Divide1'
   },
-  'Line_944' => {
+  'Line_945' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample',
     'Instance' => 'down_sample',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample'
   },
-  'Line_968' => {
+  'Line_969' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample10',
     'Instance' => 'down_sample10',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample10'
   },
-  'Line_992' => {
+  'Line_993' => {
     'CodeInstance' => 'bpm_mc_struct/down_sample11',
     'Instance' => 'down_sample11',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Down Sample11'

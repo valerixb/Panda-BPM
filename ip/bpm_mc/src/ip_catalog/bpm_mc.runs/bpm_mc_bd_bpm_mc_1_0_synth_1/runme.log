@@ -11,7 +11,7 @@
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source bpm_mc_bd_bpm_mc_1_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1343.734 ; gain = 36.836 ; free physical = 117 ; free virtual = 24306
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1343.891 ; gain = 52.836 ; free physical = 857 ; free virtual = 24430
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip'.
 WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1'.)
@@ -24,91 +24,91 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z030
 INFO: [Device 21-403] Loading part xc7z030sbg485-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 8995
+INFO: [Synth 8-7075] Helper process launched with PID 16354
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2134.730 ; gain = 405.715 ; free physical = 130 ; free virtual = 23385
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2134.887 ; gain = 404.715 ; free physical = 132 ; free virtual = 23365
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_bd_bpm_mc_1_0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/synth/bpm_mc_bd_bpm_mc_1_0.vhd:82]
-INFO: [Synth 8-3491] module 'bpm_mc' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:1504' bound to instance 'U0' of component 'bpm_mc' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/synth/bpm_mc_bd_bpm_mc_1_0.vhd:152]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:1526]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_default_clock_driver' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:1472]
-INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-3491] module 'bpm_mc' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:1513' bound to instance 'U0' of component 'bpm_mc' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/synth/bpm_mc_bd_bpm_mc_1_0.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:1535]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_default_clock_driver' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:59]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:236]
-INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:47]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
-INFO: [Synth 8-3491] module 'single_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:79]
-INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/single_reg_w_init.vhd:37]
-INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/single_reg_w_init.vhd:86]
-INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/single_reg_w_init.vhd:37]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:47]
-INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:59]
-INFO: [Synth 8-638] synthesizing module 'xlclockdriver__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:59]
-	Parameter width bound to: 1 - type: integer 
-	Parameter init_index bound to: 0 - type: integer 
-	Parameter init_value bound to: 4'b0000 
-	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:59]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:262]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:236]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:262]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:262]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:262]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:262]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:262]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:262]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:262]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:262]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:291]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:262]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:291]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:291]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:291]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:291]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:291]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:291]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:291]
-INFO: [Synth 8-256] done synthesizing module 'xlclockdriver__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_default_clock_driver' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:1472]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_struct' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:30]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i0/synth/bpm_mc_c_addsub_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'bpm_mc_c_addsub_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:976]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:291]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_w_init.vhd:31' bound to instance 'ce_logic_reg' of component 'synth_reg_w_init' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:291]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_default_clock_driver' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_struct' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i0/synth/bpm_mc_c_addsub_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'bpm_mc_c_addsub_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:998]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_c_addsub_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i0/synth/bpm_mc_c_addsub_v12_0_i0.vhd:67]
 	Parameter C_VERBOSITY bound to: 0 - type: integer 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -147,9 +147,9 @@ INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_c_addsub_v12_0_i0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i0/synth/bpm_mc_c_addsub_v12_0_i0.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i1' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i1/synth/bpm_mc_c_addsub_v12_0_i1.vhd:59' bound to instance 'core_instance1' of component 'bpm_mc_c_addsub_v12_0_i1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:985]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i1' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i1/synth/bpm_mc_c_addsub_v12_0_i1.vhd:59' bound to instance 'core_instance1' of component 'bpm_mc_c_addsub_v12_0_i1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1007]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_c_addsub_v12_0_i1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i1/synth/bpm_mc_c_addsub_v12_0_i1.vhd:67]
 	Parameter C_VERBOSITY bound to: 0 - type: integer 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -188,9 +188,9 @@ INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_c_addsub_v12_0_i1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i1/synth/bpm_mc_c_addsub_v12_0_i1.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i2' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:59' bound to instance 'core_instance2' of component 'bpm_mc_c_addsub_v12_0_i2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:994]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i2' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:59' bound to instance 'core_instance2' of component 'bpm_mc_c_addsub_v12_0_i2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1016]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_c_addsub_v12_0_i2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:67]
 	Parameter C_VERBOSITY bound to: 0 - type: integer 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -229,12 +229,12 @@ INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_c_addsub_v12_0_i2' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i2' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:59' bound to instance 'core_instance2' of component 'bpm_mc_c_addsub_v12_0_i2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:994]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized2' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i3' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:59' bound to instance 'core_instance3' of component 'bpm_mc_c_addsub_v12_0_i3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1003]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i2' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i2/synth/bpm_mc_c_addsub_v12_0_i2.vhd:59' bound to instance 'core_instance2' of component 'bpm_mc_c_addsub_v12_0_i2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1016]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized2' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i3' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:59' bound to instance 'core_instance3' of component 'bpm_mc_c_addsub_v12_0_i3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1025]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_c_addsub_v12_0_i3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:67]
 	Parameter C_VERBOSITY bound to: 0 - type: integer 
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
@@ -273,16 +273,16 @@ INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-3919] null assignment ignored
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_c_addsub_v12_0_i3' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized3' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized4' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i3' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:59' bound to instance 'core_instance3' of component 'bpm_mc_c_addsub_v12_0_i3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1003]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized4' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:879]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlceprobe' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:72]
-INFO: [Synth 8-113] binding component instance 'buf_comp' to cell 'BUF' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:82]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlceprobe' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'sysgen_constant_4fe7a598f9' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:100]
-INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_4fe7a598f9' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:100]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized3' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xladdsub__parameterized4' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-3491] module 'bpm_mc_c_addsub_v12_0_i3' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_c_addsub_v12_0_i3/synth/bpm_mc_c_addsub_v12_0_i3.vhd:59' bound to instance 'core_instance3' of component 'bpm_mc_c_addsub_v12_0_i3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1025]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xladdsub__parameterized4' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlceprobe' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:72]
+INFO: [Synth 8-113] binding component instance 'buf_comp' to cell 'BUF' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlceprobe' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_4fe7a598f9' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_4fe7a598f9' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
 	Parameter din_width bound to: 32 - type: integer 
 	Parameter din_bin_pt bound to: 31 - type: integer 
 	Parameter din_arith bound to: 2 - type: integer 
@@ -291,11 +291,11 @@ INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert' [/xilinxworks/sysgen/
 	Parameter dout_arith bound to: 1 - type: integer 
 	Parameter quantization bound to: 1 - type: integer 
 	Parameter overflow bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:246]
-INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
 	Parameter din_width bound to: 32 - type: integer 
 	Parameter din_bin_pt bound to: 28 - type: integer 
 	Parameter din_arith bound to: 2 - type: integer 
@@ -304,11 +304,11 @@ INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized0' [/xil
 	Parameter dout_arith bound to: 1 - type: integer 
 	Parameter quantization bound to: 1 - type: integer 
 	Parameter overflow bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:246]
-INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
 	Parameter din_width bound to: 64 - type: integer 
 	Parameter din_bin_pt bound to: 30 - type: integer 
 	Parameter din_arith bound to: 2 - type: integer 
@@ -317,115 +317,115 @@ INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized1' [/xil
 	Parameter dout_arith bound to: 2 - type: integer 
 	Parameter quantization bound to: 1 - type: integer 
 	Parameter overflow bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:246]
-INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized3' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized3' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized3' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlconvert__parameterized2' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
 	Parameter din_width bound to: 34 - type: integer 
-	Parameter din_bin_pt bound to: 31 - type: integer 
+	Parameter din_bin_pt bound to: 33 - type: integer 
 	Parameter din_arith bound to: 2 - type: integer 
 	Parameter dout_width bound to: 32 - type: integer 
 	Parameter dout_bin_pt bound to: 31 - type: integer 
 	Parameter dout_arith bound to: 2 - type: integer 
 	Parameter quantization bound to: 1 - type: integer 
 	Parameter overflow bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:246]
-INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized5' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized5' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:153]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized2' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:194]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldelay' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:306]
+INFO: [Synth 8-3491] module 'convert_func_call_bpm_mc_xlconvert' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:138' bound to instance 'convert' of component 'convert_func_call_bpm_mc_xlconvert' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized5' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'convert_func_call_bpm_mc_xlconvert__parameterized5' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlconvert__parameterized2' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldelay' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:306]
 	Parameter width bound to: 32 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:333]
-INFO: [Synth 8-638] synthesizing module 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:30]
 	Parameter width bound to: 32 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'srlc33e' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:31]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-256] done synthesizing module 'srlc33e' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:31]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldelay' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:306]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldelay__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:306]
+INFO: [Synth 8-3491] module 'srlc33e' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:31]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldelay' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldelay__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:306]
 	Parameter width bound to: 34 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:333]
-INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:30]
 	Parameter width bound to: 34 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'srlc33e' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:31]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:75]
-INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/srl33e.vhd:31]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldelay__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:306]
-INFO: [Synth 8-638] synthesizing module 'xldivider_generator_55f2bb6cab1514266329e41ded44d65f' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1094]
-INFO: [Synth 8-3491] module 'bpm_mc_div_gen_v5_1_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/synth/bpm_mc_div_gen_v5_1_i0.vhd:59' bound to instance 'bpm_mc_div_gen_v5_1_i0_instance' of component 'bpm_mc_div_gen_v5_1_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1119]
+INFO: [Synth 8-3491] module 'srlc33e' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized1' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:31]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized1' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldelay__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'xldivider_generator_55f2bb6cab1514266329e41ded44d65f' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1116]
+INFO: [Synth 8-3491] module 'bpm_mc_div_gen_v5_1_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/synth/bpm_mc_div_gen_v5_1_i0.vhd:59' bound to instance 'bpm_mc_div_gen_v5_1_i0_instance' of component 'bpm_mc_div_gen_v5_1_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1141]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_div_gen_v5_1_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/synth/bpm_mc_div_gen_v5_1_i0.vhd:73]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
@@ -453,23 +453,23 @@ INFO: [Synth 8-638] synthesizing module 'bpm_mc_div_gen_v5_1_i0' [/xilinxworks/s
 	Parameter C_M_AXIS_DOUT_TUSER_WIDTH bound to: 1 - type: integer 
 INFO: [Synth 8-3491] module 'div_gen_v5_1_20' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/hdl/div_gen_v5_1_vh_rfs.vhd:13454' bound to instance 'U0' of component 'div_gen_v5_1_20' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/synth/bpm_mc_div_gen_v5_1_i0.vhd:147]
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_div_gen_v5_1_i0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_div_gen_v5_1_i0/synth/bpm_mc_div_gen_v5_1_i0.vhd:73]
-INFO: [Synth 8-256] done synthesizing module 'xldivider_generator_55f2bb6cab1514266329e41ded44d65f' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1094]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldsamp' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:426]
+INFO: [Synth 8-256] done synthesizing module 'xldivider_generator_55f2bb6cab1514266329e41ded44d65f' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1116]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldsamp' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:426]
 	Parameter width bound to: 32 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_reg.vhd:18' bound to instance 'latency_pipe' of component 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:550]
-INFO: [Synth 8-638] synthesizing module 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_reg.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg_reg' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_reg.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldsamp' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:426]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldsamp__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:426]
+INFO: [Synth 8-3491] module 'synth_reg_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_reg.vhd:18' bound to instance 'latency_pipe' of component 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:550]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_reg.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_reg' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_reg.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldsamp' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:426]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xldsamp__parameterized0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:426]
 	Parameter width bound to: 32 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg_reg.vhd:18' bound to instance 'latency_pipe' of component 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:550]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldsamp__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:426]
-INFO: [Synth 8-638] synthesizing module 'sysgen_logical_532b5df41f' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_532b5df41f' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:584]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlmult' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1223]
-INFO: [Synth 8-3491] module 'bpm_mc_mult_gen_v12_0_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'bpm_mc_mult_gen_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1282]
+INFO: [Synth 8-3491] module 'synth_reg_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg_reg.vhd:18' bound to instance 'latency_pipe' of component 'synth_reg_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:550]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xldsamp__parameterized0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:426]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_532b5df41f' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_532b5df41f' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:584]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlmult' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1245]
+INFO: [Synth 8-3491] module 'bpm_mc_mult_gen_v12_0_i0' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'bpm_mc_mult_gen_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1304]
 INFO: [Synth 8-638] synthesizing module 'bpm_mc_mult_gen_v12_0_i0' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:67]
 WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:70]
 WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:70]
@@ -496,17 +496,22 @@ WARNING: [Synth 8-5640] Port 'pcasc_ext' is missing in component declaration [/x
 	Parameter C_ROUND_PT bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'mult_gen_v12_0_19' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/hdl/mult_gen_v12_0_vh_rfs.vhd:21510' bound to instance 'U0' of component 'mult_gen_v12_0_19' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:117]
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_mult_gen_v12_0_i0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_mult_gen_v12_0_i0/synth/bpm_mc_mult_gen_v12_0_i0.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlmult' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:1223]
-INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlusamp' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:660]
-INFO: [Synth 8-113] binding component instance 'sel_gen' to cell 'FDSE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:703]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlmult' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:1245]
+INFO: [Synth 8-638] synthesizing module 'bpm_mc_xlusamp' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:660]
+INFO: [Synth 8-113] binding component instance 'sel_gen' to cell 'FDSE' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:703]
 	Parameter width bound to: 34 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/synth_reg.vhd:20' bound to instance 'sampled_d_reg2' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:770]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlusamp' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc_entity_declarations.vhd:660]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc_struct' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'bpm_mc' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/bpm_mc.vhd:1526]
+INFO: [Synth 8-3491] module 'synth_reg' declared at '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/synth_reg.vhd:20' bound to instance 'sampled_d_reg2' of component 'synth_reg' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:770]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_xlusamp' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:660]
+INFO: [Synth 8-638] synthesizing module 'sysgen_reinterpret_745aad385a' [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:801]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_reinterpret_745aad385a' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc_entity_declarations.vhd:801]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc_struct' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'bpm_mc' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/bpm_mc.vhd:1535]
 INFO: [Synth 8-256] done synthesizing module 'bpm_mc_bd_bpm_mc_1_0' (0#1) [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/synth/bpm_mc_bd_bpm_mc_1_0.vhd:82]
-WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/1013/hdl/xlclockdriver_rd.vhd:212]
+WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ipshared/98ea/hdl/xlclockdriver_rd.vhd:212]
+WARNING: [Synth 8-7129] Port clk in module sysgen_reinterpret_745aad385a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ce in module sysgen_reinterpret_745aad385a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clr in module sysgen_reinterpret_745aad385a is either unconnected or has no load
 WARNING: [Synth 8-7129] Port clr in module synth_reg__parameterized1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port dest_clk in module bpm_mc_xlusamp is either unconnected or has no load
 WARNING: [Synth 8-7129] Port dest_clr in module bpm_mc_xlusamp is either unconnected or has no load
@@ -604,23 +609,20 @@ WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_7_viv__parameterized1
 WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_7_viv__parameterized119 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_7_viv__parameterized113 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_7_viv__parameterized113 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_7_viv__parameterized113 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_7_viv__parameterized22 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_7_viv__parameterized22 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2602.668 ; gain = 873.652 ; free physical = 120 ; free virtual = 22892
+Finished RTL Elaboration : Time (s): cpu = 00:01:25 ; elapsed = 00:01:37 . Memory (MB): peak = 2602.824 ; gain = 872.652 ; free physical = 144 ; free virtual = 22901
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2608.605 ; gain = 879.590 ; free physical = 120 ; free virtual = 22893
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:25 ; elapsed = 00:01:38 . Memory (MB): peak = 2608.762 ; gain = 878.590 ; free physical = 138 ; free virtual = 22895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2608.605 ; gain = 879.590 ; free physical = 119 ; free virtual = 22892
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:25 ; elapsed = 00:01:38 . Memory (MB): peak = 2608.762 ; gain = 878.590 ; free physical = 138 ; free virtual = 22895
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2614.543 ; gain = 0.000 ; free physical = 124 ; free virtual = 22894
+Netlist sorting complete. Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:00.9 . Memory (MB): peak = 2611.730 ; gain = 0.000 ; free physical = 152 ; free virtual = 22909
 INFO: [Netlist 29-17] Analyzing 1416 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -636,24 +638,24 @@ Parsing XDC File [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog
 Finished Parsing XDC File [/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2641.523 ; gain = 0.000 ; free physical = 126 ; free virtual = 22890
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2641.680 ; gain = 0.000 ; free physical = 144 ; free virtual = 22902
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 355 instances were transformed.
   BUF => LUT1: 1 instance 
   FDE => FDRE: 352 instances
   RAMB16 => RAMB18E1: 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.3 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2641.559 ; gain = 0.000 ; free physical = 124 ; free virtual = 22889
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.66 . Memory (MB): peak = 2641.715 ; gain = 0.000 ; free physical = 142 ; free virtual = 22900
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 2641.559 ; gain = 912.543 ; free physical = 142 ; free virtual = 22894
+Finished Constraint Validation : Time (s): cpu = 00:01:53 ; elapsed = 00:02:07 . Memory (MB): peak = 2641.715 ; gain = 911.543 ; free physical = 137 ; free virtual = 22895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z030sbg485-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 2641.559 ; gain = 912.543 ; free physical = 142 ; free virtual = 22894
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:53 ; elapsed = 00:02:07 . Memory (MB): peak = 2641.715 ; gain = 911.543 ; free physical = 137 ; free virtual = 22895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -677,10 +679,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for U0/bpm_mc_struct/addsub1/\comp0.c
 Applied set_property KEEP_HIERARCHY = SOFT for U0/bpm_mc_struct/addsub2/\comp0.core_instance0 . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/bpm_mc_struct/addsub3/\comp0.core_instance0 . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 2641.559 ; gain = 912.543 ; free physical = 142 ; free virtual = 22894
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:02:07 . Memory (MB): peak = 2641.715 ; gain = 911.543 ; free physical = 122 ; free virtual = 22880
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 2641.559 ; gain = 912.543 ; free physical = 121 ; free virtual = 22876
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:59 ; elapsed = 00:02:13 . Memory (MB): peak = 2641.715 ; gain = 911.543 ; free physical = 132 ; free virtual = 22892
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-223] decloning instance 'U0/bpm_mc_struct/constant_x0' (sysgen_constant_4fe7a598f9) to 'U0/bpm_mc_struct/constant1'
 INFO: [Synth 8-223] decloning instance 'bpm_mc_div_gen_v5_1_i0:/U0/i_synth/i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_fixed.i_fix_to_flt/i_fpo/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized13) to 'bpm_mc_div_gen_v5_1_i0:/U0/i_synth/i_nonzero_fract.i_synth/opt_high_radix.i_nonzero_fract.i_high_radix/i_fixed.i_fix_to_flt/i_fpo/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
@@ -719,25 +721,25 @@ WARNING: [Synth 8-3332] Sequential element (bpm_mc_struct/up_sample1/sel_gen) is
 WARNING: [Synth 8-3332] Sequential element (bpm_mc_struct/up_sample3/sel_gen) is unused and will be removed from module bpm_mc.
 WARNING: [Synth 8-3332] Sequential element (bpm_mc_struct/up_sample5/sel_gen) is unused and will be removed from module bpm_mc.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 136 ; free virtual = 22876
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:11 ; elapsed = 00:02:25 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 133 ; free virtual = 22894
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 135 ; free virtual = 22883
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:31 ; elapsed = 00:02:47 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 131 ; free virtual = 22900
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished Timing Optimization : Time (s): cpu = 00:02:32 ; elapsed = 00:02:48 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 130 ; free virtual = 22899
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:09 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22883
+Finished Technology Mapping : Time (s): cpu = 00:02:39 ; elapsed = 00:02:55 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 130 ; free virtual = 22899
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -755,37 +757,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished IO Insertion : Time (s): cpu = 00:02:53 ; elapsed = 00:03:11 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 129 ; free virtual = 22898
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 135 ; free virtual = 22883
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:53 ; elapsed = 00:03:11 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 130 ; free virtual = 22899
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 135 ; free virtual = 22883
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:55 ; elapsed = 00:03:14 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 121 ; free virtual = 22890
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:55 ; elapsed = 00:03:14 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 121 ; free virtual = 22890
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:56 ; elapsed = 00:03:15 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 125 ; free virtual = 22894
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:56 ; elapsed = 00:03:15 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 120 ; free virtual = 22889
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -862,7 +864,7 @@ Report Cell Usage:
 |10    |LUT1    |    65|
 |11    |LUT2    |   953|
 |12    |LUT3    |   818|
-|13    |LUT4    |   176|
+|13    |LUT4    |   145|
 |14    |LUT5    |   259|
 |15    |LUT6    |   502|
 |16    |MUXCY   |   511|
@@ -874,36 +876,38 @@ Report Cell Usage:
 |22    |FDRE    |  4145|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.531 ; gain = 920.516 ; free physical = 134 ; free virtual = 22882
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:56 ; elapsed = 00:03:15 . Memory (MB): peak = 2649.688 ; gain = 919.516 ; free physical = 128 ; free virtual = 22897
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 156 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:07 ; elapsed = 00:01:10 . Memory (MB): peak = 2649.531 ; gain = 887.562 ; free physical = 134 ; free virtual = 22882
-Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 2649.539 ; gain = 920.516 ; free physical = 134 ; free virtual = 22883
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:42 ; elapsed = 00:03:00 . Memory (MB): peak = 2649.688 ; gain = 886.562 ; free physical = 136 ; free virtual = 22900
+Synthesis Optimization Complete : Time (s): cpu = 00:02:56 ; elapsed = 00:03:15 . Memory (MB): peak = 2649.695 ; gain = 919.516 ; free physical = 135 ; free virtual = 22899
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2649.539 ; gain = 0.000 ; free physical = 412 ; free virtual = 23165
+Netlist sorting complete. Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.5 . Memory (MB): peak = 2649.695 ; gain = 0.000 ; free physical = 388 ; free virtual = 23152
 INFO: [Netlist 29-17] Analyzing 1488 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2649.539 ; gain = 0.000 ; free physical = 411 ; free virtual = 23166
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2649.695 ; gain = 0.000 ; free physical = 389 ; free virtual = 23153
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 497 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 143 instances
   FDE => FDRE: 352 instances
   RAMB16 => RAMB18E1: 2 instances
 
-Synth Design complete | Checksum: 1bf7d9cc
+Synth Design complete | Checksum: 9fa3a550
 INFO: [Common 17-83] Releasing license: Synthesis
-261 Infos, 116 Warnings, 0 Critical Warnings and 0 Errors encountered.
+263 Infos, 116 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:26 ; elapsed = 00:01:25 . Memory (MB): peak = 2649.566 ; gain = 1287.988 ; free physical = 410 ; free virtual = 23165
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2153.705; main = 1836.541; forked = 348.014
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3681.605; main = 2649.535; forked = 1032.070
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2673.543 ; gain = 0.000 ; free physical = 410 ; free virtual = 23166
+synth_design: Time (s): cpu = 00:03:27 ; elapsed = 00:03:37 . Memory (MB): peak = 2649.723 ; gain = 1287.988 ; free physical = 388 ; free virtual = 23152
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2197.016; main = 1868.485; forked = 344.832
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3654.625; main = 2649.691; forked = 1004.934
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2673.699 ; gain = 0.000 ; free physical = 387 ; free virtual = 23152
 INFO: [Common 17-1381] The checkpoint '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1/bpm_mc_bd_bpm_mc_1_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bpm_mc_bd_bpm_mc_1_0, cache-ID = 55deaa74ed247acf
-INFO: [Coretcl 2-1174] Renamed 508 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2673.543 ; gain = 0.000 ; free physical = 369 ; free virtual = 23143
+write_vhdl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2673.699 ; gain = 0.000 ; free physical = 376 ; free virtual = 23153
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bpm_mc_bd_bpm_mc_1_0, cache-ID = 77c3d9cffcd62e11
+INFO: [Coretcl 2-1174] Renamed 506 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2673.699 ; gain = 0.000 ; free physical = 380 ; free virtual = 23160
 INFO: [Common 17-1381] The checkpoint '/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1/bpm_mc_bd_bpm_mc_1_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file bpm_mc_bd_bpm_mc_1_0_utilization_synth.rpt -pb bpm_mc_bd_bpm_mc_1_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Apr 25 10:20:25 2024...
+write_vhdl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2673.699 ; gain = 0.000 ; free physical = 363 ; free virtual = 23156
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 25 13:31:04 2024...
