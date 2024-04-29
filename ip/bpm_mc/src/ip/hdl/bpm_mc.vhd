@@ -28,32 +28,8 @@ entity bpm_mc_struct is
   );
 end bpm_mc_struct;
 architecture structural of bpm_mc_struct is 
-  signal a_net : std_logic_vector( 32-1 downto 0 );
-  signal again_net : std_logic_vector( 32-1 downto 0 );
-  signal aoffset_net : std_logic_vector( 32-1 downto 0 );
-  signal b_net : std_logic_vector( 32-1 downto 0 );
-  signal bgain_net : std_logic_vector( 32-1 downto 0 );
-  signal boffset_net : std_logic_vector( 32-1 downto 0 );
-  signal c_net : std_logic_vector( 32-1 downto 0 );
-  signal cgain_net : std_logic_vector( 32-1 downto 0 );
-  signal coffset_net : std_logic_vector( 32-1 downto 0 );
-  signal d_net : std_logic_vector( 32-1 downto 0 );
-  signal dgain_net : std_logic_vector( 32-1 downto 0 );
-  signal doffset_net : std_logic_vector( 32-1 downto 0 );
-  signal delay7_q_net : std_logic_vector( 32-1 downto 0 );
-  signal delay1_q_net : std_logic_vector( 32-1 downto 0 );
-  signal delay2_q_net : std_logic_vector( 32-1 downto 0 );
-  signal clock_enable_probe_q_net : std_logic_vector( 1-1 downto 0 );
-  signal clk_net : std_logic;
-  signal ce_net : std_logic;
-  signal clk_net_x0 : std_logic;
-  signal ce_net_x0 : std_logic;
-  signal addsub_s_net : std_logic_vector( 32-1 downto 0 );
-  signal convert1_dout_net : std_logic_vector( 32-1 downto 0 );
-  signal convert2_dout_net : std_logic_vector( 32-1 downto 0 );
-  signal addsub1_s_net : std_logic_vector( 32-1 downto 0 );
-  signal convert4_dout_net : std_logic_vector( 32-1 downto 0 );
-  signal convert5_dout_net : std_logic_vector( 32-1 downto 0 );
+  signal divide_result_tvalid_net : std_logic;
+  signal divide1_result_tvalid_net : std_logic;
   signal addsub10_s_net : std_logic_vector( 34-1 downto 0 );
   signal addsub4_s_net : std_logic_vector( 33-1 downto 0 );
   signal addsub6_s_net : std_logic_vector( 33-1 downto 0 );
@@ -70,7 +46,7 @@ architecture structural of bpm_mc_struct is
   signal addsub5_s_net : std_logic_vector( 33-1 downto 0 );
   signal mult3_p_net : std_logic_vector( 32-1 downto 0 );
   signal mult4_p_net : std_logic_vector( 32-1 downto 0 );
-  signal addsub7_s_net : std_logic_vector( 32-1 downto 0 );
+  signal addsub7_s_net : std_logic_vector( 33-1 downto 0 );
   signal convert6_dout_net : std_logic_vector( 32-1 downto 0 );
   signal down_sample7_q_net : std_logic_vector( 32-1 downto 0 );
   signal addsub8_s_net : std_logic_vector( 34-1 downto 0 );
@@ -107,8 +83,32 @@ architecture structural of bpm_mc_struct is
   signal divide1_a_tready_net : std_logic;
   signal delay6_q_net : std_logic_vector( 34-1 downto 0 );
   signal divide1_b_tready_net : std_logic;
-  signal divide_result_tvalid_net : std_logic;
-  signal divide1_result_tvalid_net : std_logic;
+  signal a_net : std_logic_vector( 32-1 downto 0 );
+  signal again_net : std_logic_vector( 32-1 downto 0 );
+  signal aoffset_net : std_logic_vector( 32-1 downto 0 );
+  signal b_net : std_logic_vector( 32-1 downto 0 );
+  signal bgain_net : std_logic_vector( 32-1 downto 0 );
+  signal boffset_net : std_logic_vector( 32-1 downto 0 );
+  signal c_net : std_logic_vector( 32-1 downto 0 );
+  signal cgain_net : std_logic_vector( 32-1 downto 0 );
+  signal coffset_net : std_logic_vector( 32-1 downto 0 );
+  signal d_net : std_logic_vector( 32-1 downto 0 );
+  signal dgain_net : std_logic_vector( 32-1 downto 0 );
+  signal doffset_net : std_logic_vector( 32-1 downto 0 );
+  signal delay7_q_net : std_logic_vector( 32-1 downto 0 );
+  signal delay1_q_net : std_logic_vector( 32-1 downto 0 );
+  signal delay2_q_net : std_logic_vector( 32-1 downto 0 );
+  signal clock_enable_probe_q_net : std_logic_vector( 1-1 downto 0 );
+  signal clk_net : std_logic;
+  signal ce_net : std_logic;
+  signal clk_net_x0 : std_logic;
+  signal ce_net_x0 : std_logic;
+  signal addsub_s_net : std_logic_vector( 32-1 downto 0 );
+  signal convert1_dout_net : std_logic_vector( 32-1 downto 0 );
+  signal convert2_dout_net : std_logic_vector( 32-1 downto 0 );
+  signal addsub1_s_net : std_logic_vector( 32-1 downto 0 );
+  signal convert4_dout_net : std_logic_vector( 32-1 downto 0 );
+  signal convert5_dout_net : std_logic_vector( 32-1 downto 0 );
 begin
   a_net <= a;
   again_net <= again;
@@ -398,7 +398,7 @@ begin
     quantization => 1,
     s_arith => xlSigned,
     s_bin_pt => 31,
-    s_width => 32
+    s_width => 33
   )
   port map (
     clr => '0',
@@ -413,7 +413,7 @@ begin
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 31,
-    a_width => 32,
+    a_width => 33,
     b_arith => xlSigned,
     b_bin_pt => 31,
     b_width => 33,
@@ -1387,6 +1387,14 @@ begin
     core_ce => ce_net_x0,
     p => mult4_p_net
   );
+  reinterpret : entity xil_defaultlib.sysgen_reinterpret_745aad385a 
+  port map (
+    clk => '0',
+    ce => '0',
+    clr => '0',
+    input_port => up_sample5_q_net,
+    output_port => reinterpret_output_port_net
+  );
   up_sample1 : entity xil_defaultlib.bpm_mc_xlusamp 
   generic map (
     copy_samples => 1,
@@ -1452,14 +1460,6 @@ begin
     dest_clk => clk_net,
     dest_ce => ce_net,
     q => up_sample5_q_net
-  );
-  reinterpret : entity xil_defaultlib.sysgen_reinterpret_745aad385a 
-  port map (
-    clk => '0',
-    ce => '0',
-    clr => '0',
-    input_port => up_sample5_q_net,
-    output_port => reinterpret_output_port_net
   );
 end structural;
 -- Generated from Simulink block 

@@ -29,7 +29,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set IP_LifeCycle_Menu {1}
 	set IP_Logo {sysgen_icon_100.png}
 	set IP_Name {bpm_mc}
-	set IP_Revision {344957094}
+	set IP_Revision {345286106}
 	set IP_Socket_IP {0}
 	set IP_Socket_IP_Proj_Path {}
 	set IP_Vendor_Text {MaxIV}
@@ -59,7 +59,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set SynthesisTool {Vivado}
 	set TargetDir {/xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src}
 	set TopLevelModule {bpm_mc}
-	set TopLevelSimulinkHandle 31.0002
+	set TopLevelSimulinkHandle 687
 	set VHDLLib {xil_defaultlib}
 	set TopLevelPortInterface {}
 	dict set TopLevelPortInterface doffset Name {doffset}

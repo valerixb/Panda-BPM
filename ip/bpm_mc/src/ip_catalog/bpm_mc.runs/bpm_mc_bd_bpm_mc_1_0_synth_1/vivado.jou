@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Apr 25 13:26:26 2024
-# Process ID: 16348
+# Start of session at: Mon Apr 29 08:49:10 2024
+# Process ID: 5106
 # Current directory: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1
 # Command line: vivado -log bpm_mc_bd_bpm_mc_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bpm_mc_bd_bpm_mc_1_0.tcl
 # Log file: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1/bpm_mc_bd_bpm_mc_1_0.vds
 # Journal file: /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.runs/bpm_mc_bd_bpm_mc_1_0_synth_1/vivado.jou
-# Running On: ub2020p4p3vm, OS: Linux, CPU Frequency: 1992.002 MHz, CPU Physical cores: 3, Host memory: 10437 MB
+# Running On: ub2020p4p3vm, OS: Linux, CPU Frequency: 1992.000 MHz, CPU Physical cores: 3, Host memory: 10437 MB
 #-----------------------------------------------------------
 source bpm_mc_bd_bpm_mc_1_0.tcl -notrace

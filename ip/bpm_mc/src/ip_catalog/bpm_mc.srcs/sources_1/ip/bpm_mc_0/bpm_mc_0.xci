@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "bpm_mc_0",
     "component_reference": "MaxIV:Panda_ModelComp:bpm_mc:1.0",
-    "ip_revision": "344957094",
+    "ip_revision": "345286106",
     "gen_directory": "../../../../bpm_mc.gen/sources_1/ip/bpm_mc_0",
     "parameters": {
       "component_parameters": {
@@ -24,7 +24,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "344957094" } ],
+        "IPREVISION": [ { "value": "345286106" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../bpm_mc.gen/sources_1/ip/bpm_mc_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z030sbg485-1" LaunchTime="1714044378">
+<GenRun Id="synth_1" LaunchPart="xc7z030sbg485-1" LaunchTime="1714373346">
   <File Type="VDS-TIMING-PB" Name="bpm_mc_bd_wrapper_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="bpm_mc_bd_wrapper_timing_summary_synth.rpt"/>
   <File Type="PA-TCL" Name="bpm_mc_bd_wrapper.tcl"/>
@@ -21,7 +21,7 @@
     <File Path="$PSRCDIR/sources_1/imports/hdl/bpm_mc_bd_wrapper.vhd">
       <FileInfo SFType="VHDL2008">
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/bd/bpm_mc_bd/hdl/bpm_mc_bd_wrapper.vhd"/>
-        <Attr Name="ImportTime" Val="1714044349"/>
+        <Attr Name="ImportTime" Val="1714373332"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -38,7 +38,7 @@
       <FileInfo SFType="VHDL2008">
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/bpm_mc_mod.vhd"/>
-        <Attr Name="ImportTime" Val="1714044339"/>
+        <Attr Name="ImportTime" Val="1714373328"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -53,7 +53,7 @@
     <File Path="$PSRCDIR/constrs_1/imports/sysgen/bpm_mc_clock.xdc">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/bpm_mc_clock.xdc"/>
-        <Attr Name="ImportTime" Val="1714044296"/>
+        <Attr Name="ImportTime" Val="1714373307"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
@@ -61,7 +61,7 @@
     <File Path="$PSRCDIR/constrs_1/imports/sysgen/bpm_mc.xdc">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/bpm_mc.xdc"/>
-        <Attr Name="ImportTime" Val="1714044296"/>
+        <Attr Name="ImportTime" Val="1714373307"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>

@@ -75,24 +75,24 @@
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Mult4'
   },
   'Line_1390' => {
+    'CodeInstance' => 'bpm_mc_struct/reinterpret',
+    'Instance' => 'reinterpret',
+    'SimulinkInstance' => 'bpm_tb/bpm_mc/Reinterpret'
+  },
+  'Line_1398' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample1',
     'Instance' => 'up_sample1',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample1'
   },
-  'Line_1412' => {
+  'Line_1420' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample3',
     'Instance' => 'up_sample3',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample3'
   },
-  'Line_1434' => {
+  'Line_1442' => {
     'CodeInstance' => 'bpm_mc_struct/up_sample5',
     'Instance' => 'up_sample5',
     'SimulinkInstance' => 'bpm_tb/bpm_mc/Up Sample5'
-  },
-  'Line_1456' => {
-    'CodeInstance' => 'bpm_mc_struct/reinterpret',
-    'Instance' => 'reinterpret',
-    'SimulinkInstance' => 'bpm_tb/bpm_mc/Reinterpret'
   },
   'Line_1483' => {
     'CodeInstance' => 'bpm_mc_default_clock_driver/clockdriver_x0',

@@ -137,8 +137,7 @@
                {
                     'CARRY4' => 9,
                     'LUT2' => 33,
-                    'LUT3' => 31,
-                    'Total_LUTs' => 64,
+                    'Total_LUTs' => 33,
                },
           ], 
      },
@@ -522,7 +521,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1390',
+          'Line_Num' => 'Line_1398',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample1',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample1',
           'Primitives' => [ 
@@ -534,7 +533,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1412',
+          'Line_Num' => 'Line_1420',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample3',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample3',
           'Primitives' => [ 
@@ -546,7 +545,7 @@
      },
      {
           'File_Name' => 'bpm_mc.vhd',
-          'Line_Num' => 'Line_1434',
+          'Line_Num' => 'Line_1442',
           'Hier_Name' => 'bpm_mc_bd_wrapper.bpm_mc_bd_i.bpm_mc_1.U0.bpm_mc_struct.up_sample5',
           'Cell_Name' => 'bpm_mc_bd_i/bpm_mc_1/U0/bpm_mc_struct/up_sample5',
           'Primitives' => [ 
@@ -565,7 +564,7 @@
                { 
                     'CARRY4' => 215,
                     'LUT2' => 949,
-                    'LUT3' => 817,
+                    'LUT3' => 786,
                     'FDRE' => 4484,
                     'LUT6' => 498,
                     'LUT4' => 144,
@@ -575,7 +574,7 @@
                     'DSP48E1' => 48,
                     'LUT1' => 64,
                     'LUT5' => 258,
-                    'Total_LUTs' => 3130,
+                    'Total_LUTs' => 3099,
                     'Total_Registers' => 4484,
                     'Total_BRAMs' => 1.0,
                     'Total_DSPs' => 48,

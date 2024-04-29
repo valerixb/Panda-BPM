@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
--- Date        : Thu Apr 25 13:30:56 2024
+-- Date        : Mon Apr 29 08:50:58 2024
 -- Host        : ub2020p4p3vm running 64-bit Ubuntu 20.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /xilinxworks/sysgen/bpm_panda/netlist/ip/bpm_mc/src/ip_catalog/bpm_mc.gen/sources_1/bd/bpm_mc_bd/ip/bpm_mc_bd_bpm_mc_1_0/bpm_mc_bd_bpm_mc_1_0_stub.vhdl

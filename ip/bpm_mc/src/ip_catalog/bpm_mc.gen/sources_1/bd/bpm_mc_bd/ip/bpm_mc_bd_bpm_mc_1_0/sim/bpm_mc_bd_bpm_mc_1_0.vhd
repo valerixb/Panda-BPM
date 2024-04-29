@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: MaxIV:Panda_ModelComp:bpm_mc:1.0
--- IP Revision: 344957094
+-- IP Revision: 345286106
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
